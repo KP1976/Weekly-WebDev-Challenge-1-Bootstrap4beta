@@ -1,3 +1,33 @@
+@font-face {
+  font-family: "TitilliumText22L_light", sans-serif;
+  src: url("../fonts/TitilliumText22L_light.otf") format("opentype");
+}
+@font-face {
+  font-family: "TitilliumText22L_medium";
+  src: url("../fonts/TitilliumText22L_medium.otf") format("opentype");
+}
 body {
-  margin: 0;
+  font-family: "TitilliumText22L_light", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "TitilliumText22L_medium";
+}
+
+h1 {
+  color: #fff;
+}
+
+.lead {
+  margin-bottom: 1.5em;
+}
+
+.container-fluid {
+  background-image: url("../img/bg.jpg");
+  background-size: cover;
+}
+
+.logo, .logo2 {
+  display: inline-block;
+  mix-blend-mode: soft-light;
 }

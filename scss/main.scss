@@ -1,0 +1,17 @@
+@import 'custom';
+
+@import 'abstracts/variables';
+
+@font-face {
+  font-family: $main-font;
+  src: url('../fonts/TitilliumText22L_light.otf') format("opentype");
+}
+
+@font-face {
+  font-family: $title;
+  src: url('../fonts/TitilliumText22L_medium.otf') format("opentype");
+}
+
+@import 'typography';
+
+@import 'styles';
