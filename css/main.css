@@ -7,6 +7,7 @@
   src: url("../fonts/TitilliumText22L_medium.otf") format("opentype");
 }
 body {
+  color: #afafaf;
   font-family: "TitilliumText22L_light", sans-serif;
 }
 
@@ -18,16 +19,22 @@ h1 {
   color: #fff;
 }
 
-.lead {
-  margin-bottom: 1.5em;
-}
-
 .container-fluid {
   background-image: url("../img/bg.jpg");
   background-size: cover;
+  height: 100%;
+  padding: 55px 0;
 }
 
-.logo, .logo2 {
+.logo, .logo2, .www {
   display: inline-block;
   mix-blend-mode: soft-light;
+}
+
+.logo {
+  width: 112px;
+}
+
+.logo-small {
+  width: 75px;
 }
