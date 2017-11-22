@@ -24,186 +24,200 @@
     <div class="container">
       <div class="row">
         <div class="col text-center">
-          <img class="logo img-fluid" src="img/logo.png" alt="logo">
-          <img class="logo2 img-fluid" src="img/Vector-Smart-Object.png" alt="logo text">
+          <img class="logo img-fluid mb-4" src="img/logo.png" alt="logo">
         </div>
       </div>
     
       <div class="row">   
         <div class="col-sm-1"></div>
-        <div class="col-md-5">
+        <div class="col-lg-5">
+          
+          <!-- REGISTER FORM -->
           <section class="register-form">
             <h1 class="title">Register Form</h1>
-            <form class="register-form-box bg-white">
-              <div class="form-group">
-                <label class="sr-only" for="FormInputGroup">Username</label>
-                <div class="input-group mb-2 mr-sm-2 mb-sm-0">
-                  <div class="input-group-addon">@</div>
-                  <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
+            <div class="border-box">
+              <form class="register-form-box bg-white">
+                <div class="form-group">
+                  <label class="sr-only" for="FormInputGroup">Username</label>
+                  <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+                    <div class="input-group-addon"><span class="fa fa-user" aria-hidden="true"></span></div>
+                    <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
+                  </div>
                 </div>
-              </div>
 
-              <div class="form-group">
-                <label class="sr-only" for="FormInputGroup">Password</label>
-                <div class="input-group mb-2 mr-sm-2 mb-sm-0">
-                  <div class="input-group-addon">@</div>
-                  <input type="password" class="form-control" id="inlineFormInputGroup" placeholder="Password">
+                <div class="form-group">
+                  <label class="sr-only" for="FormInputGroup">Password</label>
+                  <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+                    <div class="input-group-addon"><span class="fa fa-unlock-alt" aria-hidden="true"></span></div>
+                    <input type="password" class="form-control" id="inlineFormInputGroup" placeholder="Password">
+                  </div>
                 </div>
-              </div>
 
-              <div class="form-group">
-                <label class="sr-only" for="FormInputGroup">Confirm Password</label>
-                <div class="input-group mb-2 mr-sm-2 mb-sm-0">
-                  <div class="input-group-addon">@</div>
-                  <input type="password" class="form-control" id="inlineFormInputGroup" placeholder="Confirm Password">
+                <div class="form-group">
+                  <label class="sr-only" for="FormInputGroup">Confirm Password</label>
+                  <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+                    <div class="input-group-addon"><span class="fa fa-unlock-alt" aria-hidden="true"></span></div>
+                    <input type="password" class="form-control" id="inlineFormInputGroup" placeholder="Confirm Password">
+                  </div>
                 </div>
-              </div>
 
-              <div class="form-group">
-                <label class="sr-only" for="FormInputGroup">Email</label>
-                <div class="input-group mb-2 mr-sm-2 mb-sm-0">
-                  <div class="input-group-addon">@</div>
-                  <input type="email" class="form-control" id="inlineFormInputGroup" placeholder="Email">
+                <div class="form-group">
+                  <label class="sr-only" for="FormInputGroup">Email</label>
+                  <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+                    <div class="input-group-addon">@</div>
+                    <input type="email" class="form-control" id="inlineFormInputGroup" placeholder="Email">
+                  </div>
                 </div>
-              </div>
 
-              <div class="form-group">
-                <label class="sr-only" for="FormInputGroup">Your Location</label>
-                <div class="input-group mb-2 mr-sm-2 mb-sm-0">
-                  <div class="input-group-addon">@</div>
-                  <select class="form-control" id="inlineFormCustomSelect">
-                    <option selected>Choose...</option>
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
-                  </select>
+                <div class="form-group">
+                  <label class="sr-only" for="FormInputGroup">Your Location</label>
+                  <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+                    <div class="input-group-addon">@</div>
+                    <select class="form-control" id="inlineFormCustomSelect">
+                      <option selected>Choose...</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+                  </div>
                 </div>
-              </div>
-              
-              <label class="custom-control custom-checkbox">
-                <input type="checkbox" class="custom-control-input">
-                <span class="custom-control-indicator"></span>
-                <span class="custom-control-description">I have read and accept the terms of use.</span>
-              </label>
-              
-              <button class="btn btn-success btn-block" type="button">Sign up</button>
-            </form>
+
+                <label class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input">
+                  <span class="custom-control-indicator"></span>
+                  <span class="custom-control-description">I have read and accept the terms of use.</span>
+                </label>
+
+                <button class="btn btn-success btn-block" type="submit">Sign up</button>
+              </form>
+            </div>
           </section>
-                 
+          
+          <!-- SEND EMAIL -->       
           <section class="send-email">
             <h1 class="title">Send Email</h1>
             
-            <form class="register-form-box bg-white">
-              <div class="form-group">
-                <label class="sr-only" for="FormInputGroup">Your Name</label>
-                <div class="input-group mb-2 mr-sm-2 mb-sm-0">
-                  <div class="input-group-addon">@</div>
-                  <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
+            <div class="border-box">
+              <form class="register-form-box bg-white">
+                <div class="form-group">
+                  <label class="sr-only" for="FormInputGroup">Your Name</label>
+                  <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+                    <div class="input-group-addon">@</div>
+                    <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
+                  </div>
                 </div>
-              </div>
 
-              <div class="form-group">
-                <label class="sr-only" for="FormInputGroup">Your Email</label>
-                <div class="input-group mb-2 mr-sm-2 mb-sm-0">
-                  <div class="input-group-addon">@</div>
-                  <input type="email" class="form-control" id="inlineFormInputGroup" placeholder="Email">
+                <div class="form-group">
+                  <label class="sr-only" for="FormInputGroup">Your Email</label>
+                  <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+                    <div class="input-group-addon">@</div>
+                    <input type="email" class="form-control" id="inlineFormInputGroup" placeholder="Email">
+                  </div>
                 </div>
-              </div>
 
-              <div class="form-group">
-                <label for="message"></label>
-                <textarea class="form-control" id="message" rows="6" placeholder="Type your message..."></textarea>
-              </div>
+                <div class="form-group">
+  <!--                <label for="message"></label>-->
+                  <textarea class="form-control" id="message" rows="9" placeholder="Type your message..."></textarea>
+                </div>
 
-              <label class="custom-control custom-checkbox">
-                <input type="checkbox" class="custom-control-input">
-                <span class="custom-control-indicator"></span>
-                <span class="custom-control-description">Send a copy to my Email</span>
-              </label>
+                <label class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input">
+                  <span class="custom-control-indicator"></span>
+                  <span class="custom-control-description">Send a copy to my Email</span>
+                </label>
 
-              <button class="btn btn-success btn-block" type="button">Send Email</button>
-            </form>
+                <button class="btn btn-success btn-block" type="button">Send Email</button>
+              </form>
+            </div>
           </section>
           
         </div>  
         
-        <div class="col-md-5"> 
+        <div class="col-lg-5"> 
+         
+          <!-- SIGN IN FORM -->  
           <section class="sign-in-form">
             <h1 class="title">Sign In Form</h1>
             
-            <form class="register-form-box bg-white">
-              <div class="form-group">
-                <label class="sr-only" for="FormInputGroup">Userame</label>
-                <div class="input-group mb-2 mr-sm-2 mb-sm-0">
-                  <div class="input-group-addon">@</div>
-                  <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
+            <div class="border-box">
+              <form class="register-form-box bg-white">
+                <div class="form-group">
+                  <label class="sr-only" for="FormInputGroup">Userame</label>
+                  <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+                    <div class="input-group-addon">@</div>
+                    <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
+                  </div>
                 </div>
-              </div>
 
-              <div class="form-group">
-                <label class="sr-only" for="FormInputGroup">Password</label>
-                <div class="input-group mb-2 mr-sm-2 mb-sm-0">
-                  <div class="input-group-addon">@</div>
-                  <input type="password" class="form-control" id="inlineFormInputGroup" placeholder="Password">
+                <div class="form-group">
+                  <label class="sr-only" for="FormInputGroup">Password</label>
+                  <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+                    <div class="input-group-addon">@</div>
+                    <input type="password" class="form-control" id="inlineFormInputGroup" placeholder="Password">
+                  </div>
                 </div>
-              </div>
-              
-              <label class="custom-control custom-checkbox">
-                <input type="checkbox" class="custom-control-input">
-                <span class="custom-control-indicator"></span>
-                <span class="custom-control-description">Remember me</span>
-              </label>
 
-              <button class="btn btn-success btn-block" type="button">Sign in</button>
-            </form>
+                <label class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input">
+                  <span class="custom-control-indicator"></span>
+                  <span class="custom-control-description">Remember me</span>
+                </label>
+
+                <button class="btn btn-success btn-block" type="submit">Sign in</button>
+              </form>
+            </div>
           </section>
 
+          <!-- RECOVER FORM -->
           <section class="recover-form">
             <h1 class="title">Recover Form</h1>
             
-            <form class="register-form-box bg-white">
-              <div class="form-group">
-                <label class="sr-only" for="FormInputGroup">Enter your Email</label>
-                <div class="input-group mb-2 mr-sm-2 mb-sm-0">
-                  <div class="input-group-addon">@</div>
-                  <input type="email" class="form-control" id="inlineFormInputGroup" placeholder="Enter your Email">
+            <div class="border-box">
+              <form class="register-form-box bg-white">
+                <div class="form-group">
+                  <label class="sr-only" for="FormInputGroup">Enter your Email</label>
+                  <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+                    <div class="input-group-addon">@</div>
+                    <input type="email" class="form-control" id="inlineFormInputGroup" placeholder="Enter your Email">
+                  </div>
                 </div>
-              </div>
 
-              <div class="form-group">
-                <label class="sr-only" for="FormInputGroup">Enter your Phone number</label>
-                <div class="input-group mb-2 mr-sm-2 mb-sm-0">
-                  <div class="input-group-addon">@</div>
-                  <input type="tel" class="form-control" id="inlineFormInputGroup" placeholder="Enter your Phone number">
+                <div class="form-group">
+                  <label class="sr-only" for="FormInputGroup">Enter your Phone number</label>
+                  <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+                    <div class="input-group-addon">@</div>
+                    <input type="tel" class="form-control" id="inlineFormInputGroup" placeholder="Enter your Phone number">
+                  </div>
                 </div>
-              </div>
 
-              <button class="btn btn-success" type="button">Send</button>
-              <button class="btn btn-success" type="button">Done</button>
-            </form>
+                <button class="btn btn-success" type="button">Send</button>
+                <button class="btn btn-success" type="button">Done</button>
+              </form>
+            </div>
           </section>
-
+         
+          <!-- SUBSRIBE FORM -->
           <section class="subscribe-form">
             <h1 class="title">Subscribe Form</h1>
             
-            <form class="register-form-box bg-white">
-              <div class="form-group">
-                <label class="sr-only" for="FormInputGroup">Enter your Email</label>
-                <div class="input-group mb-2 mr-sm-2 mb-sm-0">
-                  <div class="input-group-addon">@</div>
-                  <input type="email" class="form-control" id="inlineFormInputGroup" placeholder="Enter your Email">
+            <div class="border-box">
+              <form class="register-form-box bg-white">
+                <div class="form-group">
+                  <label class="sr-only" for="FormInputGroup">Enter your Email</label>
+                  <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+                    <div class="input-group-addon">@</div>
+                    <input type="email" class="form-control" id="inlineFormInputGroup" placeholder="Enter your Email">
+                  </div>
                 </div>
-              </div>
 
-              <button class="btn btn-success" type="button">Subscribe</button>
-              <button class="btn btn-danger" type="button">No, Thanks</button>
-            </form>
+                <button class="btn btn-success" type="button">Subscribe</button>
+                <button class="btn btn-danger" type="button">No, Thanks</button>
+              </form>
+            </div>
           </section>
           
           <div class="col text-center">
-            <img class="logo logo-small img-fluid" src="img/Vector-Smart-Object1.png" alt="logo">
-            <img class="logo2 img-fluid" src="img/Vector-Smart-Object.png" alt="logo text">
-            <img class="www img-fluid" src="img/www.png" alt="page address">
+            <img class="logo2 img-fluid" src="img/logo2.png" alt="logo text">
           </div>
         </div>
         <div class="col-sm-1"></div>

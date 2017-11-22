@@ -1,19 +1,42 @@
 .container-fluid {
   background-image: url('../img/bg.jpg');
   background-size: cover;  
+  background-repeat: no-repeat;
   height: 100%;
   padding: 55px 0;
 }
 
-.logo, .logo2, .www {
-  display: inline-block;
-  mix-blend-mode: soft-light;
-}
-
 .logo {
-  width: 112px;
+  mix-blend-mode: soft-light;
+  width: 429px;
 }
 
-.logo-small {
-  width: 75px;
+.logo2 {
+  mix-blend-mode: soft-light;
+  width: 353px;
 }
+
+.title {
+  font-size: $lead-font-size;
+  text-align: center;
+  text-shadow: 2px 2px 2px rgba(43, 1, 0, 0.75)
+}
+
+.sign-in-form,
+.recover-form,
+.register-form,
+.subscribe-form {
+  margin-bottom: 2em;
+}
+
+.border-box {
+  background-color: rgba(0, 0, 0, 0.23);
+  border-radius: 4px;
+  padding: 1.25em;
+}
+
+.register-form-box {
+  border-radius: 3px;
+  padding: 1em;
+}
+
