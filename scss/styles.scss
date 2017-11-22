@@ -29,6 +29,16 @@
   margin-bottom: 2em;
 }
 
+.sign-in-form,
+.send-email,
+.recover-form,
+.register-form,
+.subscribe-form {
+  @media (min-width: 992px) {
+    width: 94.385%;
+  }
+}
+
 .border-box {
   background-color: rgba(0, 0, 0, 0.23);
   border-radius: 4px;
@@ -40,3 +50,41 @@
   padding: 1em;
 }
 
+.fa {
+  color: $gray-light;
+  width: 16px;
+}
+
+.button-small {
+  width: $btn-width;
+}
+
+.form-control,
+.form-control::placeholder,
+.form-control::-webkit-input-placeholder {
+  color: $gray;
+}
+
+.form-control:focus {
+  border-color: #addc54;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(163,216,64,.25);
+}
+
+.custom-control-input:checked~.custom-control-indicator {
+  background-color: #addc54;
+}
+
+.btn-success {
+  background: linear-gradient(to bottom, #addc54 0%,#7ec31f 100%);
+}
+
+.btn-danger {
+  background: linear-gradient(to bottom, #f76f7f 0%,#f03747 100%); 
+}
+
+
+option:checked {
+  background-color: #addc54;
+  border-color: #fff;
+}

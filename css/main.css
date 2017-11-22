@@ -50,6 +50,16 @@ h1 {
   margin-bottom: 2em;
 }
 
+@media (min-width: 992px) {
+  .sign-in-form,
+  .send-email,
+  .recover-form,
+  .register-form,
+  .subscribe-form {
+    width: 94.385%;
+  }
+}
+
 .border-box {
   background-color: rgba(0, 0, 0, 0.23);
   border-radius: 4px;
@@ -59,4 +69,51 @@ h1 {
 .register-form-box {
   border-radius: 3px;
   padding: 1em;
+}
+
+.fa {
+  color: #dedede;
+  width: 16px;
+}
+
+.button-small {
+  width: 8.75rem;
+}
+
+.form-control,
+.form-control::-webkit-input-placeholder,
+.form-control::-webkit-input-placeholder {
+  color: #afafaf;
+}
+
+.form-control,
+.form-control::placeholder,
+.form-control::-webkit-input-placeholder {
+  color: #afafaf;
+}
+
+.form-control:focus {
+  border-color: #addc54;
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(163, 216, 64, 0.25);
+          box-shadow: 0 0 0 0.2rem rgba(163, 216, 64, 0.25);
+}
+
+.custom-control-input:checked ~ .custom-control-indicator {
+  background-color: #addc54;
+}
+
+.btn-success {
+  background: -webkit-gradient(linear, left top, left bottom, from(#addc54), to(#7ec31f));
+  background: linear-gradient(to bottom, #addc54 0%, #7ec31f 100%);
+}
+
+.btn-danger {
+  background: -webkit-gradient(linear, left top, left bottom, from(#f76f7f), to(#f03747));
+  background: linear-gradient(to bottom, #f76f7f 0%, #f03747 100%);
+}
+
+option:checked {
+  background-color: #addc54;
+  border-color: #fff;
 }
