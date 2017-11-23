@@ -1,13 +1,15 @@
 $red: #f03747;
 $red-light: #f76f7f;
 $red-dark: #a2202a;
+
 $green: #7ec31f;
 $green-light: #addc54;
-$green-dark: #3b9a00 ;
+$green-dark: #3b9a00;
+
 $white: #fff;
 
 $gray: #afafaf;
-$gray-light: lighten($gray, 40%);
+$gray-light: #dedede;
 
 $text-primary: $white;
 
@@ -15,5 +17,4 @@ $font-size-base: 1.4rem;
 $display1-size: 12vw;
 $lead-font-size: 2rem;
 
-$btn-padding-y: .7em;
-$btn-padding-x: 2em;
+$btn-width: 8.75rem;
